@@ -1,0 +1,5 @@
+AWSTemplateFormatVersion: "2023-01-3"
+Description: creating of a test bucket
+Resources:
+    MyBucket:
+        Type: "AWS::S3::Bucket"
